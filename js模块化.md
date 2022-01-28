@@ -1,0 +1,5 @@
+- amd： 异步模块定义，用于像RequireJS这样的模块加载器
+- cjs：CommonJS，适用于 Node 和 Browserify/Webpack
+- es：ES模块文件
+- iife：自执行模块，适用于浏览器环境script标签
+- umd：通用模块定义，以amd，cjs 和 iife 为一体
