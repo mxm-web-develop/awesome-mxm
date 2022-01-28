@@ -21,6 +21,7 @@
 - babel-loader 使webpack调用babel进行代码转译
 - style-loader 将模块导出的内容作为样式并添加到 DOM 中
 - css-loader 加载 CSS 文件并解析 import 的 CSS 文件，最终返回 CSS 代码
+- file-loader 加载png,svg,mp3等文件类型
 - postcss-loader 使用 PostCSS 加载并转换 CSS/SSS 文件
 - ![更多loader可见]: https://webpack.docschina.org/awesome-webpack 'webpack5 loaders'
 - 
@@ -29,7 +30,15 @@
 ---
 - mini-css-extract-plugin 该插件把CSS提取到单独的文件中。通过link标签嵌入打包出的html文件里。而style-loader是通过style标签内嵌在html文件里。
 - html-webpack-plugin 该插件会生成一个HTML文件,把所有webpack打包后的文件用脚本标签嵌入进去。
-- TerserPlugin 压缩js
+- terser-webpack-plugin 压缩js
 - CssMinimizerPlugin 压缩 css
 - compression-webpack-plugin 用于打包Gzip文件，对应需要服务器支持Gzip
 - webpack-bundle-analyzer 打包bundle大小分析
+- copy-webpack-plugin 处理静态资源，复制到指定位置
+
+
+
+### 相关参考
+![webpack+react配置详细教程]: https://blog.csdn.net/qq_39261142/article/details/116176902 'webpack教程'
+![webpack基础教程]:https://juejin.cn/post/6860129883398668296
+![webpack官网]:https://webpack.docschina.org/concepts/
